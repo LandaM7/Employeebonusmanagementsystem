@@ -1,4 +1,7 @@
-﻿using EmployeeBonusManagementSystem.Application.Contracts.Persistence.Common;
+﻿using Dapper;
+using EmployeeBonusManagementSystem.Application.Contracts.Persistence.Common;
+using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 using System.Data;
 
 namespace EmployeeBonusManagementSystem.Persistence.Repositories.Common;

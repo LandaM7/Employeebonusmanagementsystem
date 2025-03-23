@@ -1,5 +1,6 @@
 ﻿using EmployeeBonusManagementSystem.Application.Contracts.Persistence;
 using EmployeeBonusManagementSystem.Application.Contracts.Persistence.Common;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace EmployeeBonusManagementSystem.Persistence.Repositories.UOW;
 public class UnitOfWork(
