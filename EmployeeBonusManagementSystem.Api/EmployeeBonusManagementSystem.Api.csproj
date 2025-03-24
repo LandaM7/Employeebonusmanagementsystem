@@ -24,4 +24,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\EmployeeBonusManagementSystem.Application.csproj" />
+    <ProjectReference Include="..\EmployeeBonusManagementSystem.Persistence\EmployeeBonusManagementSystem.Persistence.csproj" />
+  </ItemGroup>
+
 </Project>

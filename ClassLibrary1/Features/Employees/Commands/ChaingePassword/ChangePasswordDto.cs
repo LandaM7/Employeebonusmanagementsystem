@@ -1,0 +1,14 @@
+﻿namespace EmployeeBonusManagementSystem.Application.Features.Employees.Commands.ChaingePassword
+{
+    public class ChangePasswordDto
+    {
+        public bool Success { get; set; }
+        public string Message { get; set; }
+
+        public ChangePasswordDto(bool success, string message)
+        {
+            Success = success;
+            Message = message;
+        }
+    }
+}

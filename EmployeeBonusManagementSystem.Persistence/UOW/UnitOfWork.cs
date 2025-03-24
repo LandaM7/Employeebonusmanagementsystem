@@ -2,7 +2,7 @@
 using EmployeeBonusManagementSystem.Application.Contracts.Persistence.Common;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace EmployeeBonusManagementSystem.Persistence.Repositories.UOW;
+namespace EmployeeBonusManagementSystem.Persistence.UOW;
 public class UnitOfWork(
     ApplicationDbContext context,
     IServiceProvider serviceProvider)

@@ -1,4 +1,5 @@
 ﻿using EmployeeBonusManagementSystem.Application.Contracts.Persistence.Common;
+using System.Data;
 
 namespace EmployeeBonusManagementSystem.Application.Contracts.Persistence;
 public interface IUnitOfWork
@@ -9,7 +10,7 @@ public interface IUnitOfWork
     IEmployeeRepository EmployeeRepository { get; }
     IReportRepository ReportRepository { get; }
     IDbTransaction BeginTransaction();
-    IDbConnection Connection { get; };
+    IDbConnection Connection { get; }
     Task BeginTransactionAsync();
     Task CommitAsync();
     Task RollbackAsync();

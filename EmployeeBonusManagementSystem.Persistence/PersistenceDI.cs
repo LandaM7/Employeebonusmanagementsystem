@@ -2,7 +2,7 @@
 using EmployeeBonusManagementSystem.Application.Contracts.Persistence.Common;
 using EmployeeBonusManagementSystem.Persistence.Repositories;
 using EmployeeBonusManagementSystem.Persistence.Repositories.Common;
-using EmployeeBonusManagementSystem.Persistence.Repositories.UOW;
+using EmployeeBonusManagementSystem.Persistence.UOW;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
